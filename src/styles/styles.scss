@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "./material-design/_theme-variables.scss";
+
+.navbar {
+    
+        width:100%;
+        background: none !important;
+    
+        @media(max-width:34em) {
+            background:black !important;
+        }
+    
+        .navbar-toggler {
+            cursor:pointer;
+            outline:0;
+        }
+    
+        .nav-link {
+            text-transform:uppercase;
+            font-weight:bold;
+        }
+
+        .navbar-brand{
+            text-transform:uppercase;
+            font-weight:bold;
+            color: #ffffff  !important;
+        }
+    
+        .nav-item {
+            padding: 0 1rem;
+    
+            @media(max-width: 34em) {
+                padding: 0;
+            }
+    
+            .nav-link {
+                @media(max-width: 34em) {
+                    font-weight:normal;
+                    color:#fff !important;
+                }
+            }
+        }
+    
+    
+    }

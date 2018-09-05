@@ -1,0 +1,9 @@
+<div class="allcontacts">
+<mat-card class="contact" *ngFor="let contactcard of contacts">
+  <div class="icon-container"><mat-icon class="icon" [innerHTML]="contactcard.icon"></mat-icon></div>
+  <div class="text" [innerHTML]="contactcard.name"></div><br>
+  <div class="text" [innerHTML]="contactcard.secondaryname"></div><br>
+  <div class="text" [innerHTML]="contactcard.thirdname"></div><br>
+</mat-card>
+</div>
+<router-outlet></router-outlet>

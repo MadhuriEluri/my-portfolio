@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+}
+
+.footer-container{
+    width: 180%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 600px;
+    /* Set the fixed height of the footer here */
+}

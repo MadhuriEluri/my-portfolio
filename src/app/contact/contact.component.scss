@@ -1,0 +1,40 @@
+.contact{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    margin-right: 45px;
+    border-style: solid;
+    border-width: 5px 0 0 0;
+    border-color: #2db82d;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)!important;
+}
+
+.allcontacts{
+    display: block;
+    margin-left:250px;
+    margin-right:auto;  
+    margin-top: 200px;
+    vertical-align:middle;
+}
+.icon{
+    font-size:60px;
+    display: block;
+    vertical-align: middle;
+    margin:0 auto;
+    margin-bottom: 25px;
+    color: #2db82d;
+    height: 60px;
+    width: 60px;
+}
+.icon-container{
+    margin-bottom:12px;
+}
+.text{
+    color: rgba(0,0,0,0.70);
+    font-size:24px;
+    display: inline;
+    vertical-align: middle;
+    margin:0 auto;
+    margin-left: 55px;
+}

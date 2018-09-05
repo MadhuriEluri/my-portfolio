@@ -1,0 +1,14 @@
+<particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
+<div class="row">
+    <nav class="navbar navbar-toggleable-md navbar-inverse">
+        <a class="navbar-brand text-primary" id="logo" routerLink="/home" routerLinkActive="active">Home</a>     
+        <a class="navbar-brand text-primary" id="logo" routerLink="/myprofile" routerLinkActive="active">My Profile</a>                          
+        <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <a class="navbar-brand text-primary" id="logo" routerLink="/experience" routerLinkActive="active">Experience</a>
+        <a class="navbar-brand text-primary" routerLink="/aboutme" routerLinkActive="active">About me</a>
+        <a class="navbar-brand text-primary"routerLink="/contact" routerLinkActive="active">Contact</a>
+    </nav>
+</div>
+<router-outlet></router-outlet>
